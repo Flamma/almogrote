@@ -1,0 +1,591 @@
+rotes:
+  - name: Absorber daño agravado
+    spheres:
+      life: 3
+  - name: Adaptarse a un entorno
+    spheres:
+      life: 2
+  - name: Adaptar a otro a un entorno
+    spheres:
+      life: 3
+  - name: Alterarse cosméticamente
+    spheres:
+      life: 2
+  - name: Alterar cosméticamente a otros
+    spheres:
+      life: 2
+  - name: Animar cadaver o partes
+    spheres:
+      life: 2
+      prime: 2
+  - name: Animar huesos y restos
+    spheres:
+      matter: 2
+      prime: 2
+  - name: Cambiar de forma
+    spheres:
+      life: 4
+  - name: Cambiar la forma de otro
+    spheres:
+      life: 5
+  - name: Curarse
+    spheres:
+      life: 2
+  - name: Curar a otros
+    spheres:
+      life: 3
+  - name: Enfermarse
+    spheres:
+      life: 2
+  - name: Herirse
+    spheres:
+      life: 2
+  - name: Herir a ser viviente
+    spheres:
+      life: 3
+  - name: Curar a ser viviente
+    spheres:
+      life: 3
+  - name: Herir a cambiaformas
+    spheres:
+      life: 3
+      spirit: 2
+  - name: Curar a cambiaformas
+    spheres:
+      life: 3
+      spirit: 2
+  - name: Herir a hada
+    spheres:
+      life: 3
+      mind: 3
+  - name: Curar a cambiaformas
+    spheres:
+      life: 3
+      mind: 3
+  - name: Herir a vampiro
+    spheres:
+      life: 3
+      matter: 2
+  - name: Curar a vampiro
+    spheres:
+      life: 3
+      matter: 2
+  - name: Crear cuerpo simple
+    spheres:
+      life: 2
+      prime: 2
+  - name: Crear cuerpo complejo
+    spheres:
+      life: 5
+      prime: 2
+  - name: Desarrollar nuevos miembros o rasgos
+    spheres:
+      life: 3
+  - name: Desarrollar nuevos miembros o rasgos en otros
+    spheres:
+      life: 4
+  - name: Duplicar cuerpo
+    spheres:
+      life: 5
+      prime: 2
+  - name: Sugerir sueño
+    spheres:
+      mind: 2
+  - name: Dormir instantáneamente
+    spheres:
+      mind: 4
+  - name: Dormir instantáneamente
+    spheres:
+      life: 3
+  - name: Incrementar físico o Rasgos
+    spheres:
+      life: 3
+  - name: Incrementar físico o Rasgos en otros
+    spheres:
+      life: 4
+  - name: Incrementar o reducir la velocidad
+    spheres:
+      time: 3
+  - name: Pudrir cuerpo
+    spheres:
+      entropy: 4
+  - name: Pudrir cuerpo
+    spheres:
+      life: 4
+  - name: Revivir muertos vivientes
+    spheres:
+      life: 4
+      prime: 3
+      spirit: 4
+  - name: Transformar el cuerpo en materia
+    spheres:
+      life: 3
+      matter: 3
+  - name: Transformar el cuerpo en fuerzas
+    spheres:
+      forces: 3
+      life: 3
+  - name: Transformar el cuerpo de otros en materia
+    spheres:
+      life: 4
+      matter: 3
+  - name: Transformar el cuerpo de otros en fuerzas
+    spheres:
+      forces: 3
+      life: 4
+  - name: Alterar probabilidad
+    spheres:
+      entropy: 2
+  - name: Bendecir
+    spheres:
+      entropy: 3
+      life: 4
+  - name: Maldecir
+    spheres:
+      entropy: 3
+      life: 4
+  - name: Bendecir
+    spheres:
+      prime: 5
+  - name: Maldecir
+    spheres:
+      prime: 5
+  - name: Causar descomposición
+    spheres:
+      entropy: 3
+  - name: Detectar debilidad
+    spheres:
+      entropy: 1
+  - name: Consagrar amuleto
+    spheres:
+      prime: 2
+  - name: Crear dispositivo
+    spheres:
+      prime: 4
+    description: Sumar las esferas necesarias para el efecto
+  - name: Crear fetiche con espíritu voluntario
+    spheres:
+      prime: 4
+    description: raro, comprobar versión original / how do you do that
+  - name: Crear fetiche con espíritu involuntario
+    spheres:
+      spirit: 4
+  - name: Crear periapto / matriz inanimado
+    spheres:
+      matter: 5
+      prime: 3
+  - name: Crear periapto / matriz vivo
+    spheres:
+      life: 5
+      prime: 3
+  - name: Crear Talismán
+    spheres:
+      prime: 4
+    description: Sumar las esferas para crear el efecto
+  - name: Ilusiones mentales
+    spheres:
+      mind: 2
+    description: a más mente más complejas (ver manual)
+  - name: Ilusiones mentales que infligen daño psíquico
+    spheres:
+      mind: 3
+  - name: Ilusiones mentales que infligen daño físico
+    spheres:
+      mind: 3
+      life: 3
+  - name: Ilusiones físicas
+    spheres:
+      forces: 2
+      prime: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Ilusiones envolventes
+    spheres:
+      forces: 4
+      mind: 4
+      prime: 4
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Acelerar / decelerar
+    spheres:
+      forces: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Campo de invisibilidad
+    spheres:
+      forces: 2
+  - name: Campo de silencio
+    spheres:
+      forces: 2
+  - name: Conjurar fuego
+    spheres:
+      forces: 3
+      prime: 2
+  - name: Conjurar viento
+    spheres:
+      forces: 3
+      prime: 2
+  - name: Conjurar materia
+    spheres:
+      matter: 3
+      prime: 2
+  - name: Conjurar madera viva
+    spheres:
+      life: 3
+      prime: 2
+  - name: Conjurar objeto nuevo
+    spheres:
+      matter: 3
+      prime: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Consagrar / Endurecer / Perfeccionar objeto
+    spheres:
+      matter: 3
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Consagrar / Endurecer / Perfeccionar objeto
+    spheres:
+      prime: 2
+  - name: Desintegrar objeto
+    spheres:
+      entropy: 3
+      time: 3
+  - name: Desintegrar objeto
+    spheres:
+      matter: 3
+  - name: Redirigir elementos existentes
+    spheres:
+      forces: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Invisibilidad en ser vivo
+    spheres:
+      forces: 2
+      life: 2
+  - name: Invocar tormenta
+    spheres:
+      forces: 4
+      prime: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Levitar o volar
+    spheres:
+      forces: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Levitar o volar
+    spheres:
+      correspondence: 3
+      life: 2
+  - name: Levitar o mover objeto
+    spheres:
+      matter: 2
+  - name: Transformar fuerzas
+    spheres:
+      forces: 3
+      life: 2
+  - name: Transformar fuerzas
+    spheres:
+      forces: 3
+      matter: 2
+  - name: Transformar fuerzas
+    spheres:
+      forces: 3
+      spirit: 2
+  - name: Transformar objetos
+    spheres:
+      matter: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Transformar objetos
+    spheres:
+      matter: 2
+      life: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Transformar objetos
+    spheres:
+      matter: 2
+      spirit: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Abrir portal entre dos localizaciones
+    spheres:
+      correspondence: 4
+  - name: Acelerar o decelerar el tiempo
+    spheres:
+      time: 3
+  - name: Afectar algo o alguien distante
+    spheres:
+      correspondence: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Conjurar ser terrenal
+    spheres:
+      correspondence: 4
+      life: 2
+  - name: Crear imágenes múltiples
+    spheres:
+      correspondence: 3
+  - name: Crear imágenes múltiples
+    spheres:
+      forces: 2
+      prime: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Crear múltiples objetos
+    spheres:
+      correspondence: 5
+      matter: 3
+      prime: 2
+    description: comprobar con el original por qué se necesita correspondencia 5
+  - name: Envejecer
+    spheres:
+      time: 3
+      life: 4
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Envejecer objeto
+    spheres:
+      time: 3
+      matter: 2
+    description: admite mayor nivel de esfera (ver manual)
+  - name: Rejuvenecer
+    spheres:
+      time: 3
+      life: 4
+    description: admite mayor nivel de esfera (ver manual); +3 dif, siempre vulgar
+  - name: Rejuvenecer objeto
+    spheres:
+      time: 3
+      matter: 2
+    description: admite mayor nivel de esfera (ver manual); +3 dif, siempre vulgar
+  - name: Establecer desencadenante temporal
+    spheres:
+      time: 4
+    description: Junto con las esferas del efecto. Permite poner condiciones más allá de las temporales
+  - name: Guardar / expulsar
+    spheres:
+      correspondence: 2
+      prime: 2
+    description: junto a la esfera apropiada. Admite mayor nivel de esfera (ver manual)
+  - name: Hacer retroceder el tiempo
+    spheres:
+      time: 3
+    description: +3 dif, siempre vulgar
+  - name: Teleportarse
+    spheres:
+      correspondence: 3
+  - name: Teleportar a otros
+    spheres:
+      correspondence: 4
+  - name: Viajar en el tiempo
+    spheres:
+      time: 5
+    description: +3 dif, siempre vulgar
+  - name: Clarividencia
+    spheres:
+      correspondence: 2
+    description: ver qué diferencia hay metiendo mente 3
+  - name: Clarividencia
+    spheres:
+      correspondence: 2
+      mind: 3
+    description: ver qué diferencia hay sin meter mente 3
+  - name: Compartir percepciones
+    spheres:
+      mind: 2
+    description: con otra esfera a 1, se puede compartir lo que se perciba
+  - name: Control mental
+    spheres:
+      mind: 4
+  - name: Cuerpo astral de luz
+    spheres:
+      mind: 4
+      prime: 2
+      spirit: 3
+    description: buscar explicación. Admite mayor nivel de esfera (ver manual)
+  - name: Desordenar pensamientos
+    spheres:
+      mind: 3
+    description: ¿hacer que sean más difíciles de leer? (ver manual)
+  - name: Entrar en un sueño
+    spheres:
+      mind: 3
+  - name: Esconder o alterar el aura
+    spheres:
+      mind: 1
+  - name: Esconder o alterar el aura
+    spheres:
+      prime: 2
+  - name: Esconder Avatar
+    spheres:
+      mind: 1
+      spirit: 2
+  - name: Esconder pensamientos
+    spheres:
+      mind: 1
+  - name: Escudo mental
+    spheres:
+      mind: 1
+  - name: Escudar la mente de otros
+    spheres:
+      mind: 2
+  - name: Estallido de dolor psíquico
+    spheres:
+      mind: 3
+    description: causa daño contundente (ver manual)
+  - name: Estallido de dolor agravado
+    spheres:
+      mind: 3
+      life: 3
+    description: causa daño agravado (ver manual)
+  - name: Influir en el ánimo
+    spheres:
+      mind: 2
+  - name: Influir en el subconsciente
+    spheres:
+      mind: 3
+    description: Admite mayor nivel de esfera (ver manual)
+  - name: Percibir espacio
+    spheres:
+      correspondence: 1
+    description: Sentir cosas en sus inmediaciones aunque no pueda percibirlas con sus sentidos normales. Al usar esta percepción, puede estimar las distancias entre objetos, encontrar una dirección de forma intuitiva (Norte, Sur, Este u Oeste), detectar objetos o personas ocultos y vislumbrar inestabilidades espaciales (curvaturas, anomalías, agujeros de gusano, etc.), en especial las creadas con otros Efectos de Correspondencia.
+  - name: Percibir flujo de quintaesencia
+    spheres:
+      prime: 1
+  - name: Sentir resonancias
+    spheres:
+      prime: 1
+  - name: Canalizar quintaesencia
+    spheres:
+      prime: 1
+    description: Percibir y canalizar Quintaesencia de Nodos, Tass, Maravillas y Efectos Mágicos. Permite absorber Quintasencia por encima del valor de Avatar.
+  - name: Percibir probabilidad
+    spheres:
+      entropy: 1
+    description: Estimar probabilidades y predecir sucesos aparentemente aleatorios como tiradas de dados.
+  - name: Percibir punto débil
+    spheres:
+      entropy: 1
+    description: Encontrar puntos débiles en personas, objetos, discursos,...
+  - name: Percibir espíritus
+    spheres:
+      spirit: 1
+  - name: Percibir celosía
+    spheres:
+      spirit: 1
+    description: Saber cómo de fuerte es la separación de los mundos materiales y espiritual en un área.
+  - name: Percibir auras
+    spheres:
+      spirit: 1
+  - name: Percibir auras
+    spheres:
+      mind: 1
+  - name: Percibir más allá del espectro visible/audible
+    spheres:
+      forces: 1
+    description: Ver en la oscuridad, visión infrarroja, pericibir flujos eléctricos, oír más allá de la sensiblidad humana,...
+  - name: Percibir tiempo
+    spheres:
+      time: 1
+    description: Tener un perfecto reloj interno, y detectar anomalías temporales causadas por otros efectos.
+  - name: Percibir propiedades de la materia
+    spheres:
+      matter: 1
+  - name: Percibir emociones e impulsos superficiales
+    spheres:
+      mind: 1
+  - name: Percibir impresiones psíquicas de un objeto
+    spheres:
+      matter: 1
+      mind: 1
+  - name: Percibir vida
+    spheres:
+      life: 1
+    description: Percibir la presencia y salud de otras criaturas vivas, así como edad, sexo y otras.
+  - name: Profecía / Visión del pasado
+    spheres:
+      time: 2
+    description: comprobar qué hace añadiendo mente
+  - name: Profecía / Visión del pasado
+    spheres:
+      mind: 2
+      time: 2
+    description: comprobar qué hace quitando mente
+  - name: Proyección astral
+    spheres:
+      mind: 4
+    description: Admite mayor nivel de esfera (ver manual)
+  - name: Telepatía
+    spheres:
+      mind: 3
+  - name: Telequinesis
+    spheres:
+      forces: 2
+    description: Admite mayor nivel de esfera (ver manual)
+  - name: Entender lenguas
+    spheres:
+      mind: 3
+  - name: Traducir lenguas
+    spheres:
+      mind: 3
+      forces: 2
+    description: otros pueden escuchar la traducción
+  - name: Ver a través de las ilusiones mentales
+    spheres:
+      mind: 4
+  - name: Ver a través de los ojos de otro
+    spheres:
+      mind: 3
+  - name: Ver Avatar
+    spheres:
+      mind: 3
+      prime: 2
+      spirit: 1
+  - name: Abrir Manantial
+    spheres:
+      prime: 4
+    description: ver manual
+  - name: Absorber Quintaesenca
+    spheres:
+      prime: 3
+    description: ver manual
+  - name: Anular Paradoja
+    spheres:
+      prime: 5
+  - name: Canalizar Quintaesencia
+    spheres:
+      prime: 3
+    description: ver manual
+  - name: Compartir Quintaesencia
+    spheres:
+      prime: 3
+  - name: Crear arma de Quintaesencia
+    spheres:
+      prime: 3
+    description: -1 Quintaesencia por nivel de salud infligido (ver manual)
+  - name: Crear nuevo Nodo
+    spheres:
+      prime: 5
+  - name: Destruir objeto por drenaje de Quintaesencia
+    spheres:
+      prime: 4
+  - name: Destruir criatura por drenaje de Quintaesencia
+    spheres:
+      prime: 5
+  - name: Drenar Nodo
+    spheres:
+      prime: 4
+  - name: Drenar Quintaesencia
+    spheres:
+      prime: 3
+  - name: Encantar arma o armadura
+    spheres:
+      prime: 2
+  - name: Energizar periapto
+    spheres:
+      prime: 3
+  - name: Refinar Tass
+    spheres:
+      prime: 4
+  - name: Tejer cuerpo de luz simple
+    spheres:
+      prime: 2
+    description: sólo el cuerpo, no el viaje astral
+  - name: Usar periapto
+    spheres:
+      prime: 2
+    description: (valor de Avatar para usarlo de forma refleja) comprobar diferencia de usarlo con cardinal
+  - name: Usar periapto
+    spheres:
+      correspondence: 2
+      prime: 2
+    description: (valor de Avatar para usarlo de forma refleja) comprobar diferencia de usarlo con cardinal
