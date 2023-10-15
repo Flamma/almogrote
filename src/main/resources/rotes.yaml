@@ -182,13 +182,23 @@ rotes:
     spheres:
       prime: 4
     description: Sumar las esferas para crear el efecto
-  - name: Ilusiones mentales
+  - name: Ilusiones mentales vagas
     spheres:
       mind: 2
-    description: a más mente más complejas (ver manual)
+    description: Percepciones vagas y poco perceptibles
+  - name: Ilusiones mentales complejas
+    spheres:
+      mind: 3
+    description: Ilusiones complejas que pueden afectar a varios sentidos y estar dotadas de movimiento
   - name: Ilusiones mentales que infligen daño psíquico
     spheres:
       mind: 3
+    description: Daño contundente. Puede ser absorbido con Fuerza de Voluntad si el objetivo sabe qué está pasando.
+  - name: Ilusiones mentales que infligen daño agravado
+    spheres:
+      mind: 3
+      prime: 2
+    description: -1 Quintaesencia. Daño agravado. Puede ser absorbido con Fuerza de Voluntad si el objetivo sabe qué está pasando.
   - name: Ilusiones mentales que infligen daño físico
     spheres:
       mind: 3
@@ -395,7 +405,12 @@ rotes:
   - name: Desordenar pensamientos
     spheres:
       mind: 3
-    description: ¿hacer que sean más difíciles de leer? (ver manual)
+    description: Acelera la mente del blanco y la plaga de pensamientos caóticos y contradictorios. Dificultad es Fuerza de Voluntad. Es vulgar, salvo que se utilice un instrumento convincente.
+  - name: Desordenar pensamientos
+    spheres:
+      mind: 2
+      entropy: 4
+    description: Acelera la mente del blanco y la plaga de pensamientos caóticos y contradictorios. Dificultad es Fuerza de Voluntad. Es vulgar, salvo que se utilice un instrumento convincente.
   - name: Entrar en un sueño
     spheres:
       mind: 3
@@ -433,7 +448,12 @@ rotes:
   - name: Influir en el subconsciente
     spheres:
       mind: 3
-    description: Admite mayor nivel de esfera (ver manual)
+  - name: Gobernar las acciones y pensamientos de otra persona
+    spheres:
+      mind: 4
+  - name: Alterar permanentemente la mente
+    spheres:
+      mind: 5
   - name: Percibir espacio
     spheres:
       correspondence: 1
