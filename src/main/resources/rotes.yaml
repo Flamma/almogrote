@@ -392,7 +392,11 @@ rotes:
   - name: Compartir percepciones
     spheres:
       mind: 2
-    description: con otra esfera a 1, se puede compartir lo que se perciba
+    description: con otra esfera a 1, se puede compartir lo que se perciba a un objetivo voluntario
+  - name: Forzar percepciones
+    spheres:
+      mind: 3
+    description: con otra esfera a 1, se puede compartir lo que se perciba a un objetivo involuntario
   - name: Control mental
     spheres:
       mind: 4
@@ -514,12 +518,6 @@ rotes:
   - name: Profecía / Visión del pasado
     spheres:
       time: 2
-    description: comprobar qué hace añadiendo mente
-  - name: Profecía / Visión del pasado
-    spheres:
-      mind: 2
-      time: 2
-    description: comprobar qué hace quitando mente
   - name: Proyección astral
     spheres:
       mind: 4
