@@ -607,3 +607,247 @@ rotes:
       correspondence: 2
       prime: 2
     description: (valor de Avatar para usarlo de forma refleja) comprobar diferencia de usarlo con cardinal
+
+  - name: Tarjeta Negra / Pequeña Caja Negra
+    spheres:
+      correspondence: 2
+      forces: 2
+      mind: 2
+    description: conecta una caja o tarjeta a cualquier sistema informático para ganar acceso a él. Se siguen necesitando tiradas para hackeo.
+    source: Ajustes Iluminados (M20)
+
+  - name: Disparo poderoso
+    spheres:
+      forces: 2
+    description: aumenta la potencia y el ruido del arma. Cada éxito reduce la dificultad del siguiente ataque en -1 y añade un éxito automático a la Esfera Fuerzas. Puede aplicarse la bonificación a la intimidación, al daño de un ataque
+    source: Ajustes Iluminados (M20)
+
+  - name: Disparo Intimidante
+    spheres:
+      forces: 2
+      mind: 2
+    description: aumenta el ruido del arma (no es necesario disparar, el ruido de percutir o desenfundar puede ser suficiente). Se puede combinar con Disparo Poderoso para hacer un disparo poderoso que intimide.
+    source: Ajustes Iluminados (M20)
+
+  - name: Manos de Muerte
+    spheres:
+      life: 3
+    description: dar un golpe de artes marciales, haciendo daño según los éxitos.
+    source: Ajustes Iluminados (M20)
+
+  - name: Manos de Muerte
+    spheres:
+      forces: 2
+    description: dar un golpe de artes marciales, haciendo daño según los éxitos.
+    source: Ajustes Iluminados (M20)
+
+  - name: Manos de Muerte buscando el punto débil
+    spheres:
+      life: 3
+      entropy: 2
+    description: dar un golpe de artes marciales a un punto débil, haciendo daño según los éxitos, y restando los éxitos también de la absorción
+    source: Ajustes Iluminados (M20)
+
+  - name: Manos de Muerte buscando el punto débil
+    spheres:
+      forces: 2
+      entropy: 2
+    description: dar un golpe de artes marciales a un punto débil, haciendo daño según los éxitos, y restando los éxitos también de la absorción
+    source: Ajustes Iluminados (M20)
+
+  - name: Manos de Muerte agravadas
+    spheres:
+      life: 3
+      prime: 2
+    description: dar un golpe de artes marciales, haciendo daño agravado según los éxitos
+    source: Ajustes Iluminados (M20)
+
+  - name: Manos de Muerte agravadas
+    spheres:
+      forces: 2
+      prime: 2
+    description: dar un golpe de artes marciales, haciendo daño agravado según los éxitos
+    source: Ajustes Iluminados (M20)
+
+  - name: Botón derecho
+    spheres:
+      correspondence: 3
+      mind: 3
+    description: "hacer click derecho mental para percibir cuadros de diálogo con información ampliada sobre el objetivo. La información obtenida tiene que ser razonable en una base de datos. Usando esferas de nivel 1 se puede añadir información relativa a dichas esferas. Se necesita Ciencia Dimensional 2 para usar este poder en los otros Mundos. Nota: este ajuste está recogido para datos en vez de correspondencia."
+    source: Ajustes Iluminados (M20)
+
+  - name: Influencia Hipernarrativa
+    spheres:
+      mind: 4
+    description: hacer que alguien se comporte de acuerdo a ciertos tópicos de la ficción mediante la invocación de frases ("Deja ir a la chica, es a mí a quien quieres"), arquetipos (mejor amigo gay) o tropos (enemigos que se vuelve aliados).
+    source: Ajustes Iluminados (M20)
+
+
+  - name: Influencia Hipernarrativa con eventos
+    spheres:
+      mind: 4
+      entropy: 2
+    description: "hacer que alguien se comporte de acuerdo a ciertos tópicos de la ficción mediante la invocación de frases (\"Deja ir a la chica, es a mí a quien quieres\"), arquetipos (mejor amigo gay) o tropos (enemigos que se vuelve aliados). La entropía permite la aparición de eventos que refuercen la narrativa: pistolas que se quedan sin munición, coches que explotan, extraños atractivos, gatos que aparecen para distraer al objetivo,..."
+    source: Ajustes Iluminados (M20)
+
+  - name: Esterelizar evidencias
+    spheres:
+      matter: 2
+      forces: 2
+    description: volatilizar pruebas, convirtiéndolas en energía. Cada tirada es una hora y cada éxito convierte 5kg de materia en energía pura. Siempre es vulgar.
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Esterelizar evidencias
+    spheres:
+      prime: 4
+    description: volatilizar pruebas, convirtiéndolas en energía. Cada tirada es una hora y cada éxito convierte 5kg de materia en energía pura. Siempre es vulgar.
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Asegurar la Escena (gente no entra)
+    spheres:
+      mind: 2
+      forces: 1
+      matter: 1
+    description: proteger una escena de los ojos de las masas. Usando cintas policiales u otros signos de peligro, se influye a a gente para no entrar. Con Fuerzas y Materia a 1 se detectan evidencias que deban ser eliminadas.
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Asegurar la Escena (gente sale)
+    spheres:
+      mind: 3
+      forces: 1
+      matter: 1
+    description: proteger una escena de los ojos de las masas. Usando cintas policiales u otros signos de peligro, se influye a a gente para que abandone la escena. Con Fuerzas y Materia a 1 se detectan evidencias que deban ser eliminadas.
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Colar Bomba a las Otras Dimensiones
+    spheres:
+      spirit: 3
+    description: "Colar un pequeño objeto, normalmente una granada, al otro lado de la Celosía, provocando que cause daño. Un fallo o fracaso puede hacer que el artilugio quede atrapado a mitad y haga daño a ambos lados. El procedimiento es vulgar y el daño por Paradoja se explica por la explosión. Nota: viene listado como procedimiento de Ciencia Dimensional, en lugar de Espíritu."
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Bomba Dimensional
+    spheres:
+      forces: 3
+      prime: 2
+      spirit: 3
+    description: "Usando la bomba como instrumento, provocar el daño que del efecto normal.  Colar un pequeño objeto, normalmente una granada, al otro lado de la Celosía, provocando que cause daño. Un fallo o fracaso puede hacer que el artilugio quede atrapado a mitad y haga daño a ambos lados. El procedimiento es vulgar y el daño por Paradoja se explica por la explosión. Nota: viene listado como procedimiento de Ciencia Dimensional, en lugar de Espíritu."
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Pistolero de Oro
+    spheres:
+      forces: 2
+      time: 3
+    description: Desenfundar dos armas y poder atacar múltiples objetivos, a la vez que se realizan saltos y esquivas espectaculares y se ignora el retroceso de las armas. Suele ser coincidente, aunque se desafíen las leyes de la física.
+    source: Procedimientos Tecnocráticos (M20)
+
+  - name: Condicionamiento inicial
+    spheres:
+      mind: 3
+      prime: 2
+    description: implementa el primer estado del condicionamiento social
+    source: Condicionamiento Social y Reprogramación (M20)
+
+
+  - name: Reforzar la programación
+    spheres:
+      mind: 4
+      prime: 2
+    description: implementa el segundo estado del condicionamiento social, necesario para objetivos no voluntarios.
+    source: Condicionamiento Social y Reprogramación (M20)
+
+  - name: Romper el condicionamiento
+    spheres:
+      mind: 3
+    description: romper el condicionamiento a uno mismo, eliminando un nivel de condicionamiento por éxito durante la escena , o romperlo permanentemente con cinco
+    source: Condicionamiento Social y Reprogramación (M20)
+
+  - name: Atrapar Balas
+    spheres:
+      forces: 2
+      life: 2
+      time: 2
+    description: detener balas con el mismo sistema de Detener Flechas.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Despertar lo Inerte
+    spheres:
+      spirit: 3
+    description: avivar el espíritu de un objeto para que funcione mejor, no se rompa, no corte a su dueño, etc. El objeto adquiere presencia espiritual y puede funcionar en la Umbra. Suelen ser necesarios de 5 a 20 éxitos, por lo que es conveniente hacer un ritual.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Cadena de Cuchicheos
+    spheres:
+      correspondence: 2
+      mind: 3
+    description: contar un secreto, cierto o no, obligando a quien lo escucha a diseminarlo (aunque se le diga lo contrario)
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: El Reluciente Penique Nuevo de Penny Dreadful
+    spheres:
+      matter: 3
+      prime: 2
+      time: 2
+    description: hacer que un objeto viejo se haga nuevo de nuevo
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: El Reluciente Penique Nuevo de Penny Dreadful (avanzado)
+    spheres:
+      matter: 4
+      prime: 2
+      time: 2
+    description: restaurar un objeto a través del mero recuerdo, o del recuerdo que otros objetos pueden guardar de él.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Interfaz Psíquica
+    spheres:
+      correspondence: 2
+      mind: 3
+      forces: 2
+    description: "usar sistemas informáticos sin acceder a su hardware. Nota: la receta está catalogada para Datos y, de hecho, dice ser incompatible con Correspondencia. Mente 4 para subir a la Red Digital sin hardware."
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Interfaz Psíquica Espiritual
+    spheres:
+      mind: 3
+      forces: 2
+      spirit: 2
+    description: para tecnochamanes, usar sistemas informáticos sin acceder a su hardware. Mente 4 para subir a la Red Digital sin hardware.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Garras
+    spheres:
+      life: 3
+    description:  hacerse crecer garras, que hacen daño letal. Con Materia 2, pueden contener otros materiales, como el metal. Con Cardinal las garras hacen daño agravado.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Garras a otros
+    spheres:
+      life: 4
+    description:  hacer crecer garras a otros, que hacen daño letal. Con Materia 2, pueden contener otros materiales, como el metal. Con Cardinal las garras hacen daño agravado.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Venganza de la Bruja entrópica
+    spheres:
+      entropy: 4
+    description: corromper a la víctima con enfermedad o lepra.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Venganza de la Bruja vital
+    spheres:
+      life: 3
+    description: destrozar el cuerpo de la víctima.
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: Venganza de la Bruja con vejez
+    spheres:
+      life: 3
+      time: 3
+    description: hacer envejecer a la víctima
+    source: Hechizos místicos y fórmulas tradicionales (M20)
+
+  - name: La Infame Silla de Jardín Vampírica
+    spheres:
+      matter: 5
+      life: 5
+    description: convertir a vampiros en objetos. Con muchos más inconvenientes que ventajas.
+    source: Hechizos místicos y fórmulas tradicionales (M20)

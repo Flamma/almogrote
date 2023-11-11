@@ -82,5 +82,32 @@ class GrimoireYamlParserTest extends AnyWordSpec with Matchers {
         throw e
       }, _ shouldBe expected)
     }
+
+    "parse rotes with source" in {
+      val expected = Grimoire(Set(
+        Rote(
+          "La Infame Silla de Jardín Vampírica",
+          Spheres(matter = 5, life = 5),
+          description=Some("convertir a vampiros en objetos. Con muchos más inconvenientes que ventajas."),
+          source=Some("Hechizos místicos y fórmulas tradicionales (M20)")
+        ),
+      ))
+
+      val result = GrimoireYamlParser.parseRotes(
+        """
+          |rotes:
+          |  - name: La Infame Silla de Jardín Vampírica
+          |    spheres:
+          |      matter: 5
+          |      life: 5
+          |    description: convertir a vampiros en objetos. Con muchos más inconvenientes que ventajas.
+          |    source: Hechizos místicos y fórmulas tradicionales (M20)
+          |""".stripMargin)
+
+      result.fold({ e =>
+        println("MAL")
+        throw e
+      }, _ shouldBe expected)
+    }
   }
 }

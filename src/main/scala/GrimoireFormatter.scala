@@ -11,8 +11,14 @@ class GrimoireFormatter(translator: Translator = Translator(Map.empty)) {
       }
       .mkString(" / ")
   }
-  def format(rote: Rote): String =
-    f"${translate(rote.name)} (${format(rote.spheres)})${rote.description.fold("")(d => f": ${translate(d)}")}"
+  def format(rote: Rote): String = {
+    val name = f"${translate(rote.name)}"
+    val spheres = f" (${format(rote.spheres)})"
+    val description = rote.description.fold("")(d => f": ${translate(d)}")
+    val source = rote.source.fold("")(d => f" (${translate(d)})")
+
+    f"$name$spheres$description$source"
+  }
 
   def format(grimoire: Grimoire): String = {
     grimoire.rotes.toList.sorted.map(format).mkString("\n\n")

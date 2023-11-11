@@ -2,6 +2,7 @@ case class Rote(
   name: String,
   spheres: Spheres,
   description: Option[String] = None,
+  source: Option[String] = None,
 )
 
 object Rote {

@@ -14,7 +14,8 @@ object GrimoireYamlParser {
   case class YRote(
     name: String,
     spheres: Map[String, Int],
-    description: Option[String] = None
+    description: Option[String] = None,
+    source: Option[String] = None,
   ) {
     def toRote: Rote = {
       def toSpheres(map: Map[String, Int]): Spheres = Spheres (
@@ -29,7 +30,7 @@ object GrimoireYamlParser {
         time = map.getOrElse("time", 0),
       )
 
-      Rote(name, toSpheres(spheres), description)
+      Rote(name, toSpheres(spheres), description, source)
     }
   }
 

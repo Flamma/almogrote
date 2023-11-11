@@ -71,5 +71,22 @@ class GrimoireFormatterTest extends AnyWordSpec with Matchers {
       val formatter = GrimoireFormatter(translator)
       formatter.format(grim) shouldBe expected
     }
+
+    "include source when available" in {
+      val grim = Grimoire(Set(Rote(
+        name="Source spell",
+        spheres=Spheres(forces=2),
+        description=Some("description"),
+        source=Some("source")
+      )))
+
+      val expected = "Source spell (Forces ••): description (source)"
+
+      val formatter = GrimoireFormatter()
+      println(grim)
+      println(formatter.format(grim))
+      formatter.format(grim) shouldBe expected
+
+    }
   }
 }
