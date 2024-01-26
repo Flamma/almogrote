@@ -13,7 +13,7 @@ rotes:
       life: 2
   - name: Alterar cosméticamente a otros
     spheres:
-      life: 2
+      life: 3
   - name: Animar cadaver o partes
     spheres:
       life: 2
@@ -851,3 +851,81 @@ rotes:
       life: 5
     description: convertir a vampiros en objetos. Con muchos más inconvenientes que ventajas.
     source: Hechizos místicos y fórmulas tradicionales (M20)
+    
+  - name: El momento perfecto
+    spheres:
+      time: 1
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática. Se usa la regla de magia ayudando a habilidades. Las tareas más complejas pueden requerir más esferas.
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto en el lugar perfecto
+    spheres:
+      time: 1
+      correspondence: 1
+    description: saber el momento y el lugar perfecto para hacer algo, como una entrada dramática. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: Aparecer en ell momento perfecto en el lugar perfecto
+    spheres:
+      time: 1
+      correspondence: 3
+    description: aparecer en el momento y el lugar perfecto para hacer algo, como una entrada dramática. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto con probabilidades
+    spheres:
+      entropy: 1
+      time: 1
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, percatándose de las probabilidades. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto controlando probabilidades
+    spheres:
+      entropy: 2
+      time: 1
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, controlando las probabilidades. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto percatándose del flujo de energías
+    spheres:
+      time: 1
+      forces: 1
+    description: elegir el momento perfecto para hacer algo, en el que necesites saber el flujo de energía. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto controlando del flujo de energías
+    spheres:
+      time: 1
+      forces: 1
+    description: elegir el momento perfecto para hacer algo, creando el flujo de energía necesario. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto percatándose de los demás
+    spheres:
+      time: 1
+      life: 1
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, sabiendo la posición, salud y actitud. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto leyendo el humor de los seres
+    spheres:
+      time: 1
+      mind: 2
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, leyendo el humor de otros seres. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto leyendo el pensamiento de los seres
+    spheres:
+      time: 1
+      mind: 2
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, sabiendo cuándo la audiencia va a estar más abierta. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto percatándose de las corrientes de energía sublime
+    spheres:
+      time: 1
+      prime: 1
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, que dependa del movimiento de la energía sublime. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto controlando las corrientes de energía sublime
+    spheres:
+      time: 1
+      prime: 3
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, conduciendo el movimiento de la energía sublime. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+  - name: El momento perfecto según el espíritu del tiempo
+    spheres:
+      time: 1
+    description: elegir el momento perfecto para hacer algo, como una entrada dramática, según el espíritu del tiempo. Se usa la regla de magia ayudando a habilidades. 
+    source: ¿Cómo haces ESO?
+
