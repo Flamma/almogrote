@@ -139,11 +139,11 @@ rotes:
   - name: Bendecir
     spheres:
       entropy: 3
-      life: 4
+      life: 3
   - name: Maldecir
     spheres:
       entropy: 3
-      life: 4
+      life: 3
   - name: Bendecir
     spheres:
       prime: 5
